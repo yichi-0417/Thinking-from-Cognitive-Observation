@@ -167,7 +167,7 @@ Together, these capabilities and cognitive foundations define the minimum accoun
 
 ## 3. Conclusion and Future Extensions
 
-AI-DLC readiness is not only on the ability to adopt AI, but on the ability to preserve Intent throughout delivery. This requires organizational capabilities that maintain alignment, enable effective delivery, provide independent validation, and sustain outcomes at scale, together with human capabilities that ensure thinking, judgment, and authorization remain present throughout the process.
+AI-DLC readiness is determined not primarily by the ability to adopt AI, but by the ability to preserve Intent throughout delivery. This requires organizational capabilities that maintain alignment, enable effective delivery, provide independent validation, and sustain outcomes at scale, together with human capabilities that ensure thinking, judgment, and authorization remain present throughout the process.
 
 The models presented in this paper establish a conceptual foundation for assessing enterprise AI-DLC readiness. Future work will focus on translating the hypothesis into a practical assessment framework, identifying capability gaps, prioritizing improvements, and developing improvement roadmaps for enterprise adoption.
 
