@@ -40,9 +40,9 @@ Together, the three models describe the change itself, the conditions required t
 
 ### 2.1 Four Non-Delegable Transformations
 
-The Transformation Model views delivery as a chain of meaning-preserving transformations through which Intent progressively moves from Human Intent to Operational Reality. Each transformation gives Intent a more concrete form while requiring its underlying purpose and meaning to be preserved.
+The Transformation Model views delivery as a chain of meaning-preserving transformations through which Intent moves from Human Intent to Operational Reality. Each transformation gives Intent a more concrete form while requiring its underlying purpose and meaning to be preserved.
 
-Although AI can increasingly perform or support the activities involved in these transformations, the responsibility for protecting Intent remains non-delegable. This responsibility encompasses human thinking, judgment, and authorization throughout the transformation process, as well as accountability for the resulting decisions and their consequences. In this sense, transformation execution can be AI-driven, but Intent Protection must remain human-owned.
+These transformations are non-delegable because responsibility for protecting Intent remains human-owned, not because every transformation activity must be performed by humans. AI may perform or support these activities, but human thinking, judgment, and authorization must remain present throughout the process, together with accountability for resulting decisions and their consequences.
 
 The model identifies four transformations:
 
