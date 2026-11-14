@@ -5,9 +5,9 @@
 
 AI-Driven Development Lifecycle (AI-DLC) reimagines software delivery by assigning planning, decomposition, and generation to AI while retaining human oversight and validation. This paper argues that successful enterprise adoption depends less on AI capability than on the organization’s ability to preserve Intent throughout delivery. It distinguishes being AI Ready from being AI-DLC Ready and proposes an enterprise readiness hypothesis for cloud infrastructure delivery.
 
-The proposed hypothesis consists of three complementary models. The Transformation Model defines four non-delegable transformations through which Intent moves from Human Intent to Operational Reality. The Readiness Model defines the conditions required to preserve Intent throughout those transformations. The Human Accountability Model defines the human functions that cannot be delegated even when execution is increasingly automated.
+The proposed hypothesis consists of three complementary models. The Transformation Model defines four non-delegable transformations through which Intent moves from Human Intent to Operational Reality. The Readiness Model defines the organizational capabilities required to preserve Intent throughout these transformations. The Human Accountability Model defines the common human capabilities—Think, Judge, and Authorize—that all AI-DLC humans must exercise at a sufficient baseline.
 
-The paper is intended to help decision-makers assess organizational readiness for AI-DLC adoption, identify capability gaps, and establish the conditions necessary for sustainable enterprise-scale implementation.
+The paper provides a conceptual foundation for assessing organizational readiness for AI-DLC adoption, identifying capability gaps, and establishing improvement priorities for sustainable enterprise-scale implementation.
 
 ---
 
@@ -23,10 +23,10 @@ This paper examines that problem through four questions:
 
 - How can Intent be decomposed without losing meaning?
 - How can validation remain trustworthy when AI participates in both generation and testing?
-- Which human accountabilities remain non-delegable in an AI-driven lifecycle?
+- What common human capabilities and accountabilities must remain present throughout an AI-driven lifecycle?
 - How can AI-DLC be adopted at enterprise scale without losing operational control and delivery consistency?
 
-Being AI Ready and being AI-DLC Ready are not equivalent. An organization may successfully adopt AI models, coding assistants, or autonomous agents while still being unable to preserve Intent across delivery. In this paper, AI readiness is treated primarily as a technology adoption problem, whereas AI-DLC readiness is treated as an organizational capability problem.
+Being AI Ready and being AI-DLC Ready are not equivalent. An organization may successfully adopt AI models, coding assistants, or autonomous agents while still being unable to preserve Intent across delivery. In this paper, AI readiness is treated primarily as a technology adoption problem, whereas AI-DLC readiness is treated as an organizational capability problem involving both collective organizational capabilities and the human capabilities required to exercise accountability.
 
 ---
 
@@ -77,7 +77,7 @@ Without Alignment, Semantic Drift allows locally correct outputs to diverge from
 
 #### Capability
 
-Capability represents the organization's collective ability to elicit, clarigy, interpret, transform, and challenge Intent. It encompasses the domain, business, architectural, engineering, and operational capabilities required to perform and govern AI-DLC.
+Capability represents the organization's collective ability to elicit, clarify, interpret, transform, and challenge Intent. It encompasses the domain, business, architectural, engineering, and operational capabilities required to perform and govern AI-DLC.
 
 Readiness requires all essential capabilities to be present and established above a minimum baseline. Proficiency may vary, provided that no critical capability is missing or insufficiently covered.
 
@@ -131,7 +131,7 @@ Without Scale, each engagement must recreate its delivery practices and governan
 
 ### 2.3 Human Accountability Model
 
-The Human Accountability Model defines three common capabilities required of all participants involved in AI-DLC: Think, Judge, and Authorize. These capabilities establish a shared baseline for human participation across the delivery lifecycle, regardless of individual roles or responsibilities. While the depth of capability may vary according to the scope of each role, all participants must be able to exercise these capabilities at a sufficient level.
+The Human Accountability Model defines three common capabilities required of all humans involved in AI-DLC: Think, Judge, and Authorize. These capabilities establish a shared baseline for human participation across the delivery lifecycle, regardless of individual roles or responsibilities. While the depth of capability may vary according to the scope of each role, all humans must be able to exercise these capabilities at a sufficient level.
 
 #### Think
 
@@ -147,7 +147,7 @@ If unfulfilled, plausible but incorrect interpretations and recommendations may 
 
 #### Authorize
 
-Authorize establishes the human authority required for material decisions, changes, and actions. Humans with appropriate authority must approve decisions within their accountability boundaries and explicitly accept the implications of material changes and residual risks.
+Authorize establishes the authority required for material decisions, changes, and actions. All humans must understand their decision-making boundaries and recognize when authorization from an appropriately accountable authority is required. Those with the relevant authority must approve such decisions and accept accountability for their implications.
 
 If unfulfilled, decisions and actions may proceed without legitimate authority or clear ownership. AI-generated recommendations or automated execution may effectively determine outcomes without accountable human approval.
 
@@ -160,14 +160,15 @@ Think, Judge, and Authorize rely on four underlying cognitive foundations:
 - Logical Thinking: Structure reasoning and maintain consistency between assumptions, decisions, and outcomes.
 - Critical Thinking: Challenge assumptions, examine evidence, and independently evaluate recommendations.
 - Design Thinking: Frame problems, explore alternatives, and develop solutions aligned with intended outcomes.
-These foundations work together to support human accountability throughout AI-DLC.
 
-Together, these capabilities and cognitive foundations define the minimum accountability coverage required for AI-DLC readiness. Organizations will ultimately map these functions to concrete job roles, teams, and governance structures; the model first defines what must be covered before prescribing who should cover it.
+Together, these capabilities and cognitive foundations define the minimum accountability coverage required for AI-DLC readiness.
 
 ---
 
 ## 3. Conclusion and Future Extensions
 
-AI-DLC readiness is not primarily a technology problem. The central challenge is preserving Intent as it moves through delivery. While AI can increasingly participate in planning, generation, validation, and operations, the ability to preserve Intent remains dependent on organizational capability rather than AI capability alone.
+AI-DLC readiness is not only on the ability to adopt AI, but on the ability to preserve Intent throughout delivery. This requires organizational capabilities that maintain alignment, enable effective delivery, provide independent validation, and sustain outcomes at scale, together with human capabilities that ensure thinking, judgment, and authorization remain present throughout the process.
 
-The model presented here is intentionally conceptual. Future work will focus on translating it into enterprise practice. This includes mapping accountability functions to delivery roles, reconciling the model with existing AI-DLC implementation packages, and addressing the semantic gap between the model and established cloud infrastructure delivery methods. These topics will be explored through a series of case studies intended to bridge the hypothesis presented here with practical enterprise adoption.
+The models presented in this paper establish a conceptual foundation for assessing enterprise AI-DLC readiness. Future work will focus on translating the hypothesis into a practical assessment framework, identifying capability gaps, prioritizing improvements, and developing improvement roadmaps for enterprise adoption.
+
+This work will be informed by field research across different industry contexts, including insurance and manufacturing. Further research will also examine how the model can be mapped to existing AI-DLC implementation practices and established cloud infrastructure delivery methods.
