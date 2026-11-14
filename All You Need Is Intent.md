@@ -131,60 +131,38 @@ Without Scale, each engagement must recreate its delivery practices and governan
 
 ### 2.3 Human Accountability Model
 
-The Human Accountability Model defines the human functions that must remain present while each transformation is performed. These functions are not job titles, organizational units, or fixed delivery roles. They describe the judgment, authority, ownership, and acceptance of consequences required to preserve Intent.
+The Human Accountability Model defines three common capabilities required of all participants involved in AI-DLC: Think, Judge, and Authorize. These capabilities establish a shared baseline for human participation across the delivery lifecycle, regardless of individual roles or responsibilities. While the depth of capability may vary according to the scope of each role, all participants must be able to exercise these capabilities at a sufficient level.
 
-All four functions must remain covered throughout delivery, although their distribution and emphasis may differ by role. This does not require every participant to become a generalist, nor does it depend on a single evangelist spanning every discipline. It requires complementary specialist capabilities and explicit accountability coverage across the transformation chain.
+#### Think
 
-#### Human Intent Function
+Think establishes the human understanding required to direct and participate in AI-assisted delivery. Humans must understand the intended outcomes, relevant business and technical contexts, underlying assumptions, constraints, dependencies, and potential implications of proposed changes.
 
-The Human Intent Function protects the purpose behind change. It determines why a change should exist, what outcome is expected, and who remains accountable for that outcome.
+If unfulfilled, AI-assisted activities may proceed based on incomplete context, implicit assumptions, or misunderstood Intent. Outputs may be internally coherent but disconnected from the actual problem or intended outcome.
 
-Key components:
+#### Judge
 
-- Direction: establishes the desired outcome and the reality the organization intends to change.
+Judge evaluates whether interpretations, proposals, decisions, and outcomes are valid, appropriate, and consistent with the intended outcomes. Humans must challenge assumptions, examine evidence, assess trade-offs, and independently evaluate potential risks and consequences rather than relying solely on AI-generated recommendations.
 
-- Authorization: confirms whether the Intent and any material change to it are legitimate and may proceed.
-- Outcome Ownership: accepts accountability for whether the intended outcome remains valid and is ultimately achieved.
+If unfulfilled, plausible but incorrect interpretations and recommendations may be accepted without sufficient scrutiny. Errors, unsupported assumptions, and inappropriate decisions may propagate across the delivery lifecycle.
 
-If unfulfilled, Intent may change without explicit authorization, or continue without a clear outcome owner. Delivery can remain productive while becoming disconnected from its original purpose, and AI may optimize locally successful outputs against an objective that is ambiguous, outdated, or no longer intended.
+#### Authorize
 
-#### Business Meaning Function
+Authorize establishes the human authority required for material decisions, changes, and actions. Humans with appropriate authority must approve decisions within their accountability boundaries and explicitly accept the implications of material changes and residual risks.
 
-The Business Meaning Function interprets Human Intent within a specific business domain. It establishes what the Intent means in business terms and determines whether proposed interpretations remain valid within the applicable domain context.
+If unfulfilled, decisions and actions may proceed without legitimate authority or clear ownership. AI-generated recommendations or automated execution may effectively determine outcomes without accountable human approval.
 
-Key components:
+Authorization does not require approval of every AI-generated output or individual execution step. It applies to decisions and actions whose impact, risk, or implications require accountable human authority.
 
-- Domain Interpretation: expresses Intent through business capabilities, rules, policies, constraints, and assumptions.
-- Business Judgment: resolves ambiguity and evaluates whether an interpretation is appropriate for the business context.
-- Business Acceptance Criteria Definition: establishes the business criteria by which an interpretation or outcome can be accepted.
+#### Underlying Cognitive Foundations
 
-If unfulfilled, domain assumptions remain implicit, different participants may assign different meanings to the same Intent, and business rules may be inferred rather than authorized. AI and delivery teams may then produce plausible but incorrect requirements, acceptance criteria, or decisions without sufficient domain context or authority.
+Think, Judge, and Authorize rely on four underlying cognitive foundations:
+- System Thinking: Understand interdependencies, feedback loops, and broader implications.
+- Logical Thinking: Structure reasoning and maintain consistency between assumptions, decisions, and outcomes.
+- Critical Thinking: Challenge assumptions, examine evidence, and independently evaluate recommendations.
+- Design Thinking: Frame problems, explore alternatives, and develop solutions aligned with intended outcomes.
+These foundations work together to support human accountability throughout AI-DLC.
 
-#### System Meaning Function
-
-The System Meaning Function translates Business Meaning into coherent system capability. It determines how the business interpretation should be represented through system boundaries, architecture, behavior, and technical constraints.
-
-Key components:
-
-- Translation: converts business capabilities and constraints into system responsibilities and expected behavior.
-- Architectural Judgment: evaluates boundaries, alternatives, trade-offs, and non-functional implications.
-- Technical Coherence: ensures that local design and implementation decisions remain consistent with the intended system as a whole.
-
-If unfulfilled, architecture becomes emergent rather than intentional. Local optimizations may accumulate, individual components may satisfy isolated requirements, and technically valid artifacts may collectively fail to support the intended business outcome.
-
-#### Operational Reality Function
-
-The Operational Reality Function ensures that System Meaning is realized and sustained in production. It connects implementation with operation and evaluates whether the delivered system continues to produce the intended outcome under real conditions.
-
-Key components:
-
-- Realization: maintains continuity from system design through implementation, deployment, and service activation.
-- Operational Stewardship: establishes ownership, service expectations, observability, recovery, escalation, and control of AI-assisted operational actions.
-- Operational Feedback and Risk Acceptance: interprets production evidence, feeds learning back into earlier transformations, and accepts or escalates residual operational risk.
-
-If unfulfilled, delivery effectively ends at deployment. The system may be released successfully while remaining difficult to own, observe, recover, or improve; production evidence may not correct upstream assumptions; and increased delivery speed may create operational load rather than sustained business value.
-
-Together, these functions define the minimum accountability coverage required for AI-DLC readiness. AI may perform activities within every transformation, but human functions remain responsible for judgment, authorization, ownership, consequences, and risk acceptance. Organizations will ultimately map these functions to concrete job roles, teams, and governance structures; the model first defines what must be covered before prescribing who should cover it.
+Together, these capabilities and cognitive foundations define the minimum accountability coverage required for AI-DLC readiness. Organizations will ultimately map these functions to concrete job roles, teams, and governance structures; the model first defines what must be covered before prescribing who should cover it.
 
 ---
 
