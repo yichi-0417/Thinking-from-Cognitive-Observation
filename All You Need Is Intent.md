@@ -40,17 +40,19 @@ Together, the three models describe the change itself, the conditions required t
 
 ### 2.1 Four Non-Delegable Transformations
 
-The Transformation Model views delivery as a chain of meaning-preserving transformations through which Intent progressively moves from Human Intent to Operational Reality.
+The Transformation Model views delivery as a chain of meaning-preserving transformations through which Intent progressively moves from Human Intent to Operational Reality. Each transformation gives Intent a more concrete form while requiring its underlying purpose and meaning to be preserved.
 
-Human Intent represents the original objective behind a change. It captures the desired outcome, the rationale for pursuing that outcome, and the reality the organization seeks to improve.
+Although AI can increasingly perform or support the activities involved in these transformations, the responsibility for protecting Intent remains non-delegable. This responsibility encompasses human thinking, judgment, and authorization throughout the transformation process, as well as accountability for the resulting decisions and their consequences. In this sense, transformation execution can be AI-driven, but Intent Protection must remain human-owned.
 
-Business Meaning represents the interpretation of Intent within a specific business context. It defines business capabilities, domain rules, constraints, policies, and success criteria. At this stage, Intent becomes understandable and actionable within the business domain.
+The model identifies four transformations:
 
-System Meaning represents the translation of business meaning into system capabilities. It includes architecture decisions, domain models, logical designs, operational requirements, and technical trade-offs required to realize business objectives.
+**Human Intent** represents the original purpose behind a change. It captures the desired outcome, the rationale for pursuing that outcome, and the reality the organization seeks to improve. It establishes not only what the organization intends to achieve, but also why the change matters.
 
-Operational Reality represents the realization of those capabilities in production. It includes deployment, operation, observation, recovery, governance, and continuous improvement. A system cannot be considered successful unless the intended outcome is sustained in operational reality.
+**Business Meaning** represents the interpretation of Intent within a specific business context. It defines business capabilities, domain rules, constraints, policies, and success criteria. At this stage, Intent becomes understandable and actionable within the business domain.
 
-These four transformations are described as non-delegable because they require human judgment, accountability, and acceptance of consequences. AI may assist in each transformation, but responsibility for preserving Intent cannot be delegated.
+**System Meaning** represents the translation of Business Meaning into system capabilities. It includes architecture decisions, domain models, logical designs, operational requirements, and technical trade-offs required to realize business objectives and express business needs.
+
+**Operational Reality** represents the realization of System Meaning in production. It encompasses deployment, operation, observation, recovery, governance, and continuous improvement. The transformation does not end when a system is deployed: its success depends on whether the intended outcome can be sustained under real operating conditions.
 
 ### 2.2 AI-DLC Readiness Model
 
