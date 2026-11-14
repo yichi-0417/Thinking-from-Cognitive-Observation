@@ -46,9 +46,9 @@ These transformations are non-delegable because responsibility for protecting In
 
 The model identifies four transformations:
 
-**Human Intent** represents the original purpose behind a change. It captures the desired outcome, the rationale for pursuing that outcome, and the reality the organization seeks to improve. It establishes not only what the organization intends to achieve, but also why the change matters.
+**Human Intent** represents the original purpose behind a change. It captures the desired outcome, the rationale for pursuing that outcome, and the reality the organization seeks to improve. It establishes not only what the organization intends to achieve, but also why the change matters. It may initially be incomplete or ambiguous.
 
-**Business Meaning** represents the interpretation of Intent within a specific business context. It defines business capabilities, domain rules, constraints, policies, and success criteria. At this stage, Intent becomes understandable and actionable within the business domain.
+**Business Meaning** represents a shared, confirmed understanding of the interpretation of Intent within a specific business context. It defines business capabilities, domain rules, constraints, policies, and success criteria. At this stage, Intent becomes understandable and actionable within the business domain.
 
 **System Meaning** represents the translation of Business Meaning into system capabilities. It includes architecture decisions, domain models, logical designs, operational requirements, and technical trade-offs required to realize business objectives and express business needs.
 
@@ -62,11 +62,11 @@ AI-DLC readiness requires all four dimensions—Alignment, Capability, Validatio
 
 #### Alignment
 
-Alignment prevents Semantic Drift as Intent moves through successive transformations. It preserves semantic consistency through explicit and inspectable traceability between the original Intent, intermediate representations, delivery decisions, and resulting outcomes.
+Alignment prevents Semantic Drift by ensuring that the original Intent is clarified into a shared Business Meaning and remains traceable through successive transformations. It preserves semantic consistency through explicit and inspectable traceability between the original Intent, intermediate representations, delivery decisions, and resulting outcomes.
 
 Key checkpoints:
 
-- The intended outcome, scope, and success criteria are explicitly understood.
+- The intended outcome, scope, and success criteria, including ambiguities and assumptions, are explicitly clarified and understood.
 - Business requirements, architectural decisions, delivery increments, and implementation outcomes are traceable to the original Intent.
 - Traceability is visible and inspectable, supporting both forward tracking and backward verification.
 - Business, architecture, engineering, and operations maintain compatible interpretations of intended outcomes.
@@ -77,13 +77,13 @@ Without Alignment, Semantic Drift allows locally correct outputs to diverge from
 
 #### Capability
 
-Capability represents the organization's collective ability to interpret, transform, and challenge Intent. It encompasses the domain, business, architectural, engineering, and operational capabilities required to perform and govern AI-DLC.
+Capability represents the organization's collective ability to elicit, clarigy, interpret, transform, and challenge Intent. It encompasses the domain, business, architectural, engineering, and operational capabilities required to perform and govern AI-DLC.
 
 Readiness requires all essential capabilities to be present and established above a minimum baseline. Proficiency may vary, provided that no critical capability is missing or insufficiently covered.
 
 Key checkpoints:
 
-- Essential capabilities are identified and covered across the delivery lifecycle.
+- Essential capabilities are identified and covered across the delivery lifecycle, including the ability to elicit and clarify Intent with stakeholders.
 - Each capability meets a minimum baseline appropriate to its function.
 - The organization can critically evaluate and challenge AI-generated requirements, decompositions, designs, tests, and operational actions.
 - Capability gaps, dependencies, and concentrations are visible and addressed.
@@ -93,7 +93,7 @@ Without sufficient Capability, human oversight degrades into approval of AI-gene
 
 #### Validation
 
-Validation establishes independent assurance that each transformation preserves the original Intent and that the resulting system behaves as intended. It covers functional and non-functional requirements, design decisions, tests, operational acceptance, and residual risk.
+Validation establishes independent assurance that each transformation preserves the original Intent and that the resulting system fulfills the agreed Business Meaning. It covers functional and non-functional requirements, design decisions, tests, operational acceptance, and residual risk.
 
 Independence requires evaluation criteria, evidence, and judgment that do not rely solely on the process that generated the output. It does not necessarily require a third party, but it must provide a basis for evaluation beyond the internal consistency of generated artifacts.
 
