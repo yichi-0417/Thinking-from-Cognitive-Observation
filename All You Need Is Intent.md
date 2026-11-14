@@ -56,65 +56,76 @@ The model identifies four transformations:
 
 ### 2.2 AI-DLC Readiness Model
 
-The Readiness Model defines what must happen when each transformation occurs. Four conditions must remain effective as Intent is formed as Human Intent, interpreted as Business Meaning, translated into System Meaning, and realized as Operational Reality. Each condition is described by its purpose, the checkpoints through which it can be assessed, and the failure mode created when it is not fulfilled.
+The AI-DLC Readiness Model defines the organizational capabilities required to preserve Intent across the four transformations: from Human Intent to Business Meaning, System Meaning, and Operational Reality.
+
+AI-DLC readiness requires all four dimensions—Alignment, Capability, Validation, and Operability and Scale—to operate together, with complete coverage of essential capabilities at a sufficient baseline, rather than uniform proficiency across all dimensions.
 
 #### Alignment
 
-Alignment is the continued consistency of Intent as it moves through all transformations. It is not a one-time agreement at project initiation; it must be maintained whenever Intent is interpreted, translated, or realized.
+Alignment prevents Semantic Drift as Intent moves through successive transformations. It preserves semantic consistency through explicit and inspectable traceability between the original Intent, intermediate representations, delivery decisions, and resulting outcomes.
 
 Key checkpoints:
 
 - The intended outcome, scope, and success criteria are explicitly understood.
-- Units and delivery increments remain traceable to the original Intent.
-- Business, architecture, engineering, and operations share compatible assumptions.
+- Business requirements, architectural decisions, delivery increments, and implementation outcomes are traceable to the original Intent.
+- Traceability is visible and inspectable, supporting both forward tracking and backward verification.
+- Business, architecture, engineering, and operations maintain compatible interpretations of intended outcomes.
 - Changes to scope, constraints, or acceptance criteria are visible and authorized.
-- Intent is reconfirmed at major transformation and decision points.
+- Intent is revisited at major transformation points to detect semantic deviations.
 
-If unfulfilled, semantic drift accumulates across the transformations. Teams may deliver locally correct artifacts that are mutually inconsistent or disconnected from the intended outcome. AI can accelerate this divergence by producing internally coherent outputs from an already misaligned context.
+Without Alignment, Semantic Drift allows locally correct outputs to diverge from the original business objectives. Implicit or incomplete traceability makes deviations difficult to detect and correct. AI can accelerate this divergence by generating internally consistent outputs from misaligned context.
 
 #### Capability
 
-Capability is the collective ability to interpret, transform, and challenge Intent throughout delivery. It includes domain knowledge, architecture thinking, engineering competence, operational judgment, ownership, and the ability to translate between business and technical contexts.
+Capability represents the organization's collective ability to interpret, transform, and challenge Intent. It encompasses the domain, business, architectural, engineering, and operational capabilities required to perform and govern AI-DLC.
+
+Readiness requires all essential capabilities to be present and established above a minimum baseline. Proficiency may vary, provided that no critical capability is missing or insufficiently covered.
 
 Key checkpoints:
 
-- Each transformation has access to the required business, architecture, engineering, and operational knowledge.
-- Participants can evaluate AI-generated decomposition, trade-offs, designs, tests, and operational actions rather than merely approve them.
-- Decision rights are assigned to people with the competence and ownership to exercise them.
-- Knowledge gaps and escalation paths are explicit.
-- Operations possesses an engineering-oriented capability sufficient to build, observe, recover, and improve the system across its lifecycle.
+- Essential capabilities are identified and covered across the delivery lifecycle.
+- Each capability meets a minimum baseline appropriate to its function.
+- The organization can critically evaluate and challenge AI-generated requirements, decompositions, designs, tests, and operational actions.
+- Capability gaps, dependencies, and concentrations are visible and addressed.
+- Engineering and operational capabilities support building, observing, recovering, and improving AI-assisted systems.
 
-If unfulfilled, human-in-the-loop becomes approval-in-the-loop. Missing knowledge remains invisible, architecture judgment becomes a bottleneck, and responsibility is either fragmented or concentrated in too few individuals. The organization may operate AI tools successfully while remaining unable to govern AI-driven delivery.
+Without sufficient Capability, human oversight degrades into approval of AI-generated outputs without adequate evaluation. Capability gaps remain hidden, while dependencies on a limited number of individuals or teams create bottlenecks. AI adoption may increase without a corresponding ability to govern AI-driven delivery.
 
 #### Validation
 
-Validation is the independent determination that each transformation still represents the original Intent and that the resulting system behaves as intended. It covers functional and non-functional requirements, design decisions, tests, operational acceptance, and residual risk.
+Validation establishes independent assurance that each transformation preserves the original Intent and that the resulting system behaves as intended. It covers functional and non-functional requirements, design decisions, tests, operational acceptance, and residual risk.
+
+Independence requires evaluation criteria, evidence, and judgment that do not rely solely on the process that generated the output. It does not necessarily require a third party, but it must provide a basis for evaluation beyond the internal consistency of generated artifacts.
 
 Key checkpoints:
 
-- Acceptance criteria and validation oracles are established independently from the artifacts they evaluate.
+- Acceptance criteria and evaluation oracles are established independently of the artifacts being evaluated.
 - Functional requirements, non-functional requirements, domain rules, risks, and architecture decisions are traceable to tests and evidence.
-- Test scope, environment, time, dependencies, and required skills are planned before execution.
-- Changes to an oracle, expected result, or acceptance threshold require explicit human authorization.
-- Deployment and operational acceptance are based on sufficient evidence, not only on AI-generated test success.
+- Validation scope, methods, environment, time, dependencies, and required skills are planned before execution.
+- Changes to evaluation criteria, or acceptance threshold require explicit human review and authorization.
+- Deployment and operational acceptance are based on sufficient evidence and explicit risk decisions, not only on AI-generated test success.
 
-If unfulfilled, AI may interpret the requirement, generate the implementation, define the test, and judge the result within the same reasoning chain. A passing result then demonstrates internal consistency rather than external correctness. Incomplete test planning may further force teams to reduce coverage or accept unverified risk to meet delivery schedules.
+Without independent Validation, the same AI-driven process may interpret requirements, generate implementation, define tests, and evaluate its own outputs. Passing tests then demonstrate internal consistency rather than correctness against original Intent. Shared assumptions and omissions can propagate undetected, leading to incomplete validation and unverified risk acceptance.
 
 #### Operability and Scale
 
-Operability and Scale are the ability to sustain the intended outcome in production and to repeat the delivery approach across enterprise engagements. Operability treats build, deployment, observation, recovery, and improvement as one lifecycle; scale requires these practices to be standardized without hard-wiring a single technical solution.
+Operability and Scale ensure that intended outcomes can be sustained in production and reproduced across enterprise engagements.
+
+Operability concerns the ability to build, deploy, observe, recover, and improve individual systems throughout their operational lifecycle.
+
+Scale concerns the ability to standardize and reuse delivery practices, artifacts, decision points, and governance mechanisms across projects and environments without depending on a single technical solution.
 
 Key checkpoints:
 
 - Operational ownership, service objectives, observability, recovery, escalation, and risk acceptance are defined before deployment.
 - Operations participates in design and validation rather than receiving the system through a final handover.
-- The operating role has sufficient engineering and judgment capability to evaluate and govern AI-assisted operational actions.
+- Operational capabilities support the governance of AI-assisted systems and responses to unexpected conditions.
 - Delivery artifacts, decision points, and evidence requirements are standardized and reusable across projects.
-- Production feedback can revise requirements, designs, tests, and future delivery decisions while preserving traceability to Intent.
+- Production feedback informs subsequent requirements, architecture, tests, and delivery decisions while maintaining Intent traceability.
 
-If unfulfilled, delivery may finish at deployment while the system remains difficult to own, observe, recover, or improve. Increased generation speed then creates more operational load rather than greater enterprise throughput. Without standardization, every engagement must relearn the method, preventing AI-DLC from being adopted at scale.
+Without Operability, delivery ends at deployment, leaving systems difficult to own, observe, recover, or improve. Faster generation may increase operational burden rather than end-to-end throughput.
 
-An organization is considered AI-DLC Ready only when all four dimensions operate together. Alignment preserves the direction of Intent; Capability enables its transformation; Validation establishes independent confidence; and Operability and Scale sustain and reproduce the intended outcome in reality. A material weakness in any one dimension breaks the lifecycle even when the other dimensions appear mature.
+Without Scale, each engagement must recreate its delivery practices and governance mechanisms. AI-DLC remains dependent on isolated project success rather than becoming a repeatable organizational capability.
 
 ---
 
